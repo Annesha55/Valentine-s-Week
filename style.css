@@ -23,27 +23,27 @@ body {
 
 /* ================= PAGE CENTER ================= */
 .page-wrapper {
-  min-height: 100svh;
+  min-height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6px;        /* 🔥 thin background border */
+  padding: 12px;
 }
-
 
 
 /* ================= MAIN CARD ================= */
 .frame {
   background: #fffaf5;
-  width: 100%;                 /* 🔥 IMPORTANT */
-  max-width: 570px;            /* desktop card size */
-  padding: 24px 16px;
+  width: 50%;
+  max-width: 1500px;
+  max-height: 1990px;
+  padding: 70px 20px;
   border-radius: 20px;
   text-align: center;
   position: relative;
+  animation: slideUp 1s ease;
 }
-
 
 /* ================= TITLES ================= */
 .title {
@@ -233,7 +233,7 @@ body {
 /* ================= MOBILE FIX ================= */
 @media (max-width: 768px) {
   .frame {
-    padding: 100px 50px;
+    padding: 100px 20px;
   }
 
   .title {
@@ -289,4 +289,3 @@ body {
   font-size: 1rem;
   opacity: 0.8;
 }
-
